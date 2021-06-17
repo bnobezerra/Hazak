@@ -160,7 +160,7 @@ def listdel(arqdataset, arqlist):
     for x in remS[::-1]:
         del k[x]
 
-    createArq(f'new_{arqdataset}', ''.join(k))
+    createArq(arqdataset, ''.join(k))
 
 
 # Rename sequences in order to the file 'filos.txt'____________________________:
