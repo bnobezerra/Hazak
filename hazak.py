@@ -19,8 +19,7 @@ while True:
     if test:
         while True:
             cabecalho(f'Dataset com {count(ArqP, ">")} sequências')
-            resp = menu(['Contar', 'Renomear', 'Deletar sequencias', 'Renomear sequencias específicas',
-                         'Renomear Dataset', 'Deletar uma lista de sequencias', 'Renomear árvore', 'Sair'])
+            resp = menu(['Contar', 'Renomear', 'Deletar sequencias', 'Renomear sequencias específicas', 'Renomear Dataset', 'Deletar uma lista de sequencias', 'Renomear árvore', 'Sair'])
 
             if resp == 1:
                 par1 = input('Parametro: ')
