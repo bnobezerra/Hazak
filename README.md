@@ -1,10 +1,12 @@
 # Hazak
 Bioinformatic script
 
-Script desenvolvido para poupar tempo em pipelines bioinformaticas de analise de sequencias proteicas e evolucacao molecular.
+A compilled of some simple scripts that i used to save some time when running bioinformatic pipelines with protein datasets, phylogenetic trees, etc.
 
-main.py = recebe os inputs do usuario e chama a analise requerida
-criteria.py = funcoes que efetivamente realizam as analises, nem todas estao em uso
-arquivo.py = funcoes relativas a manipulacao de arquivos
+main.py = run this one, main file that will call all functions;
+criteria.py = the actual functions, check this if you need to change something to your use (but pls do not redistribute this without contating me);
+arquivo.py = super simple functions that deal with the archives.
 
-Tome bastante cuidado se for utilizar, a maioria das funcoes sobreescreve o arquivo, entao sempre use uma copia do seu dataset.
+WARNING: Be careful using these scripts, most of them OVERWRITE the original file you use. So always keep a copy of your dataset, tree, etc.
+
+Finally, contact me if you have ANY suggestion, i am quite new with programming and all of this. :) 
