@@ -8,12 +8,17 @@ you want.
 - Put prefixes in sequences with specific parameters to make the data analysis in aligments and trees much easy  
 - Direct delete a list of sequences 
 
+
 usage:
+
     hazak [-c PARAMETER] [-e PARAMETER] [-p PARAMETER PREFIX] [-l LIST_FILE] [-r RESIDUES_THRESHOLD] dataset_input dataset_output
 
+
 positional arguments:
+
     input file          must be the last but one argument (.fasta, .fastq)
     output file         last argument (.fasta, .fastq)
+
 
 optional arguments:
 
