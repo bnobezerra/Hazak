@@ -1,9 +1,0 @@
-Platyhelminthes
-Mollusca
-Cnidaria
-Echinoderma
-Placozoa
-Annelida
-Sponges
-Hemichordata
-Tardigrada
