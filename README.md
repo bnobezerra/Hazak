@@ -16,12 +16,18 @@ positional arguments:
     output file         last argument (.fasta, .fastq)
 
 optional arguments:
+
     --help              show this message
+    
     -c                  count how many sequences have the given parameter
+    
     -e                  count and delete the sequences with the given parameter
+    
     -p                  find the sequences with the given parameter, them put a prefix into the name of the sequence 
                         (right before the '>')
+                        
     -l                  delete from the dataset the sequences in the given file
+    
     -r                  delete all sequences with less residues them the given threshold
 
 
