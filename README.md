@@ -29,7 +29,7 @@ optional arguments:
     -e                  count and delete the sequences with the given parameter
     
     -p                  find the sequences with the given parameter, them put a prefix into the name of the sequence 
-                        (right before the '>')
+                        (right after the '>')
                         
     -l                  delete from the dataset the sequences in the given file
     
